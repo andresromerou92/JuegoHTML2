@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="juego clases ">
+		
+		<title>Corre por tus notas </title>
+		
+		<link rel="stylesheet" type="text/css" href="estilos/default.css" media="screen">
+		<script src="js/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+		<script src="js/quica.js" language="JavaScript1.2"></script>
+		<script src="js/calaca.js" language="JavaScript1.2"></script>
+		<script src="js/script.js" language="JavaScript1.2"></script>
+
+		
+		
+	</head>
+	<body>
+		<section>
+			<canvas id="mi_canvas" width="640" height="480">
+				Tu navegador no es compatible
+			</canvas>			
+		<! </section>
+		<!<section>
+			<div id="popup" style="display: none;">
+				<div class="content-popup">
+					<div class="close"><a href="#" id="close"><img src="imagenes/close.png"/></a></div>
+					 <h2>Teclas de juego</h2>
+					 <img src="imagenes/teclado.png"/>
+					
+				</div>
+			</div>
+			
+			<h1>Corre por tus notas </h1>
+			<button id="instrucciones">Ver Instrucciones</button><br>
+			
+			<button id="iniciar">Iniciar</button>
+		</section>
+		<audio id="pierde">
+			<source src="sonidos/pierde_vida.ogg" type="audio/ogg">
+			<source src="sonidos/pierde_vida.mp3" type="audio/mpeg">
+			<source src="sonidos/pierde_vida.wav" type="audio/wav">
+			Tu navegador no es compatible
+		</audio>
+		<audio id="gana">
+		     <source src="sonidos/gana_vida.ogg" type="audio/ogg">
+		     <source src="sonidos/gana_vida.mp3" type="audio/mpeg">
+			<source src="sonidos/gana_vida.wav" type="audio/wav">
+				Tu navegador no es compatible
+		</audio>
+		<img id="abajo" src="imagenes/billy.png"/>
+		<img id="arriba" src="imagenes/billy.png"/>
+		<img id="salto" src="imagenes/billy.png"/>
+		<img id="sentado" src="imagenes/billy.png"/>
+		<img id="mascara" src="imagenes/mascara.png"/>
+		<img id="malo" src="imagenes/malo.png"/>
+		<img id="bueno" src="imagenes/bueno.png"/>
+		
+		
+	</body>
+</html>

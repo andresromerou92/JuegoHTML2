@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	
+	margin:0;
+	
+	background-image: url('../Imagenes/fondo.gif');
+	width:100% px;
+}
+a{
+	color:#FF0000;
+}
+
+.centro{
+background-color:#fc9073;
+}
+
+.button{
+	
+	width:100px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	position:center;
+	background-color:	#E2A9F3;
+	border:5px solid ;
+	border-color:#E2A9F3;
+	border-radius:10px;
+}
+
+.button:hover{
+	background-color:#F5D0A9;
+	border-color:#FE642E;
+}
+
+
+			
+
+/* CSS Document */
+
